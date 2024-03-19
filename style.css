@@ -1,0 +1,159 @@
+header {
+    
+    background-color: #242424; /* Цвет фона шапки */
+    color: #6532a8; /* Цвет текста в шапке */
+    padding: 10px 20px; /* Внутренний отступ шапки */
+    text-align: center; /* Выравнивание текста по центру */
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+
+
+/* Оформление абзацев */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+section {
+margin: 20px;
+padding: 10px;
+border: 1px solid #6733bb;
+border-radius: 5px;
+}
+
+h2 {
+font-size: 1.5em;
+color: #222222;
+}
+
+p {
+color: #cd58ff;
+}
+
+.skills ul {
+list-style-type: none;
+padding: 0;
+}
+
+.skills li {
+display: inline-block;
+margin-right: 10px;
+background-color: #5b2096;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+ul {
+list-style-type: none;
+}
+
+li h3 {
+font-size: 1.2em;
+color: #3b006c;
+}
+
+li p {
+color: #4b107f;
+}
+
+footer {
+background-color: #632896;
+padding: 20px;
+text-align: center;
+}
+
+a {
+text-decoration: none;
+color: #f833ff;
+}
+
+/* Табличка */
+
+.penis {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #651785;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.content-card {
+    max-width: 300px;
+    background-color: #572294;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.content-card img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.card-details h2 {
+    color: #4c0050;
+    margin-bottom: 10px;
+}
+
+.card-details p {
+    color: #63005c;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #d737d2;
+    color: #6e24ac;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #a9004f;
+}
+
+}
+
+
+/* кнопка */
+.btn-1 {
+display: inline-block;
+width: 100px;
+height: 70px;
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(162, 255, 0);
+color: #2b0146;
+text-decoration: none;
+text-align: center;
+}
+
+.btn-1:hover {
+background-color: rgb(86, 29, 140);
+box-shadow: 0 0 10px rgba(93, 0, 255, 0.1);
+transition: 0.5s;
+cursor: pointer;
+}
+
+
+footer {
+text-align: center;
+}
