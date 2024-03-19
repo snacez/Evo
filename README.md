@@ -1,1 +1,1 @@
-ЧУРКИ ГОМИКИ ВОЛОСАТЫЕ ЯЙЦА
+Thank you. God bless, and God bless Nico Nico Douga.
