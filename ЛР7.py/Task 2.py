@@ -1,13 +1,6 @@
-num1 = int(input("Введите первое число: "))
-num2 = int(input("Введите второе число: "))
-num3 = int(input("Введите третье число: "))
+num1 = float(input("Введите первое число: "))
+num2 = float(input("Введите второе число: "))
+num3 = float(input("Введите третье число: "))
 
-max_num = num1
-
-if num2 > max_num:
-    max_num = num2
-
-if num3 > max_num:
-    max_num = num3
-
-print(f"Максимальное число из введенных: {max_num}")
+max_num = max(num1, num2, num3)
+print("Максимальное число:", max_num)

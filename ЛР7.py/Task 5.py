@@ -1,5 +1,3 @@
-number = int(input("Введите число, для которого нужно вывести таблицу умножения: "))
-
-print(f"Таблица умножения для числа {number}:")
+num = int(input("Введите число: "))
 for i in range(1, 11):
-    print(f"{number} * {i} = {number * i}")
+    print(num, "x", i, "=", num * i)
