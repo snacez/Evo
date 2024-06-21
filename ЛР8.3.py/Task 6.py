@@ -27,3 +27,4 @@ print('Привет, я Анфиса!')
 print(process_anfisa('Сколько у меня друзей?'))
 print(process_anfisa('Кто все мои друзья?'))
 print(process_anfisa('Где все мои друзья?'))
+ 

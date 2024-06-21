@@ -42,3 +42,4 @@ print(process_anfisa('сколько у меня друзей?'))
 print(process_anfisa('кто все мои друзья?'))
 print(process_anfisa('где все мои друзья?'))
 print(process_anfisa('кто виноват?'))
+ 

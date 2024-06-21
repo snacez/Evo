@@ -40,3 +40,4 @@ print(process_query('Анфиса, кто все мои друзья?'))
 print(process_query('Анфиса, где все мои друзья?'))
 print(process_query('Анфиса, кто виноват?'))
 print(process_query('Соня, ты где?'))
+ 

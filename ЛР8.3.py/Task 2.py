@@ -7,3 +7,4 @@ for messages_count in range(0, 21):
         print(f'У вас {messages_count} новых сообщения')
     else:
         print(f'У вас {messages_count} новых сообщений')
+ 
