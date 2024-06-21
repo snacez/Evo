@@ -8,4 +8,4 @@ question_encoded = encoded[1]
 question = urllib.parse.unquote(question_encoded)
 
 # напечатайте на экран запрос в расшифрованном виде
-print(question)
+print(question) 

@@ -13,4 +13,4 @@ strings = [
 for s in strings:
     encoded = urllib.parse.quote(s)          # Зашифрованная строка.
     decoded = urllib.parse.unquote(encoded)  # Расшифрованная обратно строка.
-    print(decoded, '-', encoded)
+    print(decoded, '-', encoded) 
