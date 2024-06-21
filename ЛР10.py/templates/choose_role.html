@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Role</title>
+</head>
+<body>
+    <h1>Choose Your Role</h1>
+    <form method="post" action="{{ url_for('welcome') }}">
+        <label for="role">Select your role:</label>
+        <select name="role" id="role">
+            <option value="admin">Admin</option>
+            <option value="moderator">Moderator</option>
+            <option value="user">Regular User</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

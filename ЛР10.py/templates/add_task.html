@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Task</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Task</h1>
+        <form method="POST" action="{{ url_for('add_task') }}">
+            <label for="task">Task:</label>
+            <input type="text" id="task" name="task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        {% if message %}
+            <p>{{ message }}</p>
+        {% endif %}
+        <a href="{{ url_for('task_list') }}">View Tasks</a>
+    </div>
+</body>
+</html>
